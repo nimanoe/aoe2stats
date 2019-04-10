@@ -210,7 +210,7 @@ $changes_json = <<<JSON
 	},
 	"Heavy Camel": {
 		"civb": {
-      "Indians": "AR +10/+1",
+      "Indians": "AR +0/+1",
       "Indians and allies": "+6 attack vs buildings",
       "Berbers": "Costs 47F 51G in Castle age (-15% cost), 44F 48G (-20% cost) in Imperial Age"
 		},
