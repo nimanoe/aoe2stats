@@ -284,7 +284,7 @@ $new_structures_json = <<<JSON
         "Byzantines": "2340 HP in Castle, 2520 HP in Imperial (HP bonus)",
         "Mayans and allies": "Cost 3S (50% cheaper)",
         "Incas": "Cost 4S",
-	"Incas with Mayan ally": "?"
+	"Incas with Mayan ally": "Cost 2S"
       },
       "t" : ""
     },
@@ -305,7 +305,7 @@ $new_structures_json = <<<JSON
       "civb": {
 	"Mayans and allies": "Cost 15S (50% cheaper)",
 	"Incas": "Cost 26S",
-	"Incas with Mayan ally": "?"
+	"Incas with Mayan ally": "Cost 13S"
       },
       "t" : ""
     },
@@ -337,9 +337,9 @@ $new_structures_json = <<<JSON
       "los": "10",
       "hp": "2000",
       "ra": "1-7",
-      "at": "3+ 3x 1",
+      "at": "3 + 3x 1",
       "ar": "3/10",
-      "GA": "Malay unique building. Fires arrows. +? attack vs ships. Also classified as stone defense. The 3 extra arrows only deal 1 damage each.",
+      "GA": "Malay unique building. Fires arrows. +10 attack vs ships. Also classified as stone defense. The 3 extra arrows only deal 1 damage each.",
       "civb": {
         "Malay": "2x LOS"
       },
@@ -352,13 +352,13 @@ $new_structures_json = <<<JSON
       "age": "2",
       "cost": "350S",
       "bt": "2:30",
-      "fr": "?",
-      "los": "?",
+      "fr": "2",
+      "los": "10",
       "hp": "2600",
       "ra": "7",
-      "at": "9",
+      "at": "9/arrow",
       "ar": "8/11",
-      "GA": "?"
+      "GA": "20 units (support 20 population), max 21 arrows"
       "civb": {},
       "t" : "stone defense"
     }
