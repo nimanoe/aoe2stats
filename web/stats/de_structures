@@ -130,7 +130,6 @@ $changes_json = <<<JSON
 	"Palisade Wall": {
 		"bt": "0:06",
 		"civb": {
-			"Koreans": "build time 0:03.75 (25% faster)",
 			"Malians": "Cost 2W (-15% wood bonus no effect)"
 		}
 	},
@@ -139,7 +138,6 @@ $changes_json = <<<JSON
 		"hp": "900",
 		"civb": {
 			"Byzantines": "1080 HP in Feudal",
-			"Koreans": "build time 0:07.5",
 			"Incas": "Cost 4S"
 		}
 	},
@@ -149,60 +147,56 @@ $changes_json = <<<JSON
 		"civb": {
 			"Mayans and allies": "Cost 15S (50% cheaper)",
 			"Incas": "Cost 26S",
-			"Koreans": "Build time 0:52.5"
 		}
 	},
 	"Fortified Wall": {
 		"bt": "0:10",
 		"civb": {
 			"Incas": "Cost 4S",
-			"Koreans": "build time 0:07.5 (-25% bonus)"
 		}
 	},
 	"Castle": {
 		"los": "11",
 		"civb": {
-			"Koreans": "build time 2:30 (-25% bonus)",
 			"Incas": "Cost 553S"
 		},
-    "GA": "20 units (support 20 population), max 21 arrows, <br /> 1st arrow +2 against spearmen <br /> From 2nd arrow +11 damage vs ships, +11 vs stone defense, +1 damage to camels"
+                "GA": "20 units (support 20 population), max 21 arrows, <br /> 1st arrow +2 against spearmen <br /> From 2nd arrow +11 damage vs ships, +11 vs stone defense, +1 damage to camels"
 	},
 	"Watch Tower": {
 		"cost": "125S 50W",
 		"civb": {
-			"Koreans": "BT 1:16 (-5%), +1 RA in Castle Age, +2 RA in Imperial Age",
+			"Koreans": "+1 RA in Castle Age, +2 RA in Imperial Age",
 			"Incas": "Cost 25W 106S",
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 125S (-15% wood bonus)"
 		},
-    "GA": "garrison 5 units, +2 vs spearmen line, +7 damage vs ships, +1 vs camels, max 5 arrows"
+                "GA": "garrison 5 units, +2 vs spearmen line, +7 damage vs ships, +1 vs camels, max 5 arrows"
 	},
 	"Guard Tower": {
 		"cost": "125S 50W",
 		"at": "7",
 		"civb": {
-			"Koreans": "BT 1:16 (-5%), +1 RA in Castle Age, +2 RA in Imperial Age",
+			"Koreans": "+1 RA in Castle Age, +2 RA in Imperial Age",
 			"Incas": "Cost 25W 106S",
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 125S (-15% wood bonus)"
 		},
-    "GA": "garrison 5 units, +2 vs spearmen line, +9 damage vs ships, +1 vs camels, max 5 arrows"
+                "GA": "garrison 5 units, +2 vs spearmen line, +9 damage vs ships, +1 vs camels, max 5 arrows"
 	},
 	"Keep": {
 		"cost": "125S 50W",
 		"at": "8",
 		"civb": {
-			"Koreans": "BT 1:16 (-5%), +2 RA in Imperial Age",
+			"Koreans": "+2 RA in Imperial Age",
 			"Incas": "Cost 25W 106S",
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 125S (-15% wood bonus)"
 		},
-   	"GA": "garrison 5 units, +2 vs spearmen line, +10 damage vs ships, +1 vs camels, max 5 arrows"
+   	        "GA": "garrison 5 units, +2 vs spearmen line, +10 damage vs ships, +1 vs camels, max 5 arrows"
 	},
 	"Outpost": {
 		"cost": "25W 5S",
 		"civb": {
-			"Koreans": "build time 0:11.25 (-25% bonus)",
 			"Incas": "Cost 25W 4S",
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 5S (-15% bonus)"
@@ -210,10 +204,9 @@ $changes_json = <<<JSON
 	},
 	"Bombard Tower": {
 		"civb": {
-			"Koreans": "build time 1:16 (-5% bonus)",
 			"Ethiopians and allies": "+3 LOS"
 		},
-    "GA": "garrison 5 units, +40 damage vs ships, +1 vs camels, pierce attack"
+                "GA": "garrison 5 units, +40 damage vs ships, +1 vs camels, pierce attack"
 	},
 	"Town Center": {
 		"civb": {
@@ -222,7 +215,7 @@ $changes_json = <<<JSON
 			"Incas": "Cost 275W 85S",
 			"Malians": "Cost 234W 100S (-15% wood bonus)"
 		},
-	  "GA": "15 units (supports 5 population), max 10 arrows <br /> +5 vs all buildings, +5 vs ships, +1 vs camels"
+	        "GA": "15 units (supports 5 population), max 10 arrows <br /> +5 vs all buildings, +5 vs ships, +1 vs camels"
 	},
 	"Wonder": {
 		"civb": {
@@ -244,7 +237,7 @@ $changes_json = <<<JSON
 		"bt": "0:40",
 		"civb": {
 			"Malians": "Cost 85W (-15% bonus)",
-      "Malay": "Cost 67W (-33% cheaper) and provide unlimited food (7e13)"
+                        "Malay": "Cost 67W (-33% cheaper) and provide unlimited food (7e13)"
 		}
 	}
 }
@@ -268,8 +261,8 @@ $new_structures_json = <<<JSON
       "GA": "0/0 armor when under construction",
       "civb": {
         "Mayans and allies": "Cost 10W (50% cheaper)",
-	    	"Malians": "Cost 17W (-15% wood bonus)",
-		    "Malians with mayan ally": " Cost 9W (50% + 15% bonus)"
+	"Malians": "Cost 17W (-15% wood bonus)",
+	"Malians with Mayan ally": "Cost 9W (50% + 15% bonus)"
       },
       "t" : ""
     },
@@ -290,8 +283,8 @@ $new_structures_json = <<<JSON
       "civb": {
         "Byzantines": "2340 HP in Castle, 2520 HP in Imperial (HP bonus)",
         "Mayans and allies": "Cost 3S (50% cheaper)",
-        "Koreans": "Build time 0:07.5",
-        "Incas": "Cost 4s"
+        "Incas": "Cost 4S",
+	"Incas with Mayan ally": "?"
       },
       "t" : ""
     },{
@@ -309,9 +302,9 @@ $new_structures_json = <<<JSON
       "ar": "6/6",
       "GA": "+1250 HP with Fortified Wall, 0/0 armor when under construction",
       "civb": {
-		    "Mayans and allies": "Cost 15S (50% cheaper)",
-		    "Incas": "Cost 26S",
-        "Koreans": "Build time 0:52.5"
+	"Mayans and allies": "Cost 15S (50% cheaper)",
+	"Incas": "Cost 26S",
+	"Incas with Mayan ally": "?"
       },
       "t" : ""
     },
