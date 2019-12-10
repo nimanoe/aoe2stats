@@ -117,7 +117,7 @@ $changes_json = <<<JSON
 	},
 	"Market": {
 		"civb": {
-			"Saracens": "Cost 100W",
+			"Saracens": "Cost 75W",
 			"Malians": "Cost 149W (-15% bonus)"
 		}
 	},
@@ -335,10 +335,10 @@ $new_structures_json = <<<JSON
       "fr": "3",
       "los": "10",
       "hp": "2000",
-      "ra": "7",
-      "at": "6+ 3x 1",
+      "ra": "1-7",
+      "at": "3+ 3x 1",
       "ar": "3/10",
-      "GA": "Malay unique building. Fires arrows. +13 attack vs ships. Also classified as stone defense. The 3 extra arrows only deal 1 damage each.",
+      "GA": "Malay unique building. Fires arrows. +? attack vs ships. Also classified as stone defense. The 3 extra arrows only deal 1 damage each.",
       "civb": {
         "Malay": "2x LOS"
       },
